@@ -5,7 +5,7 @@ from time import perf_counter
 def matmul(x):
     matrix1  = np.random.randn(x,x)
     matrix2  = np.random.randn(x,x)
-    ans = matrix1*matrix2
+    ans = matrix1 @ matrix2
 
 
 if __name__ == "__main__":
